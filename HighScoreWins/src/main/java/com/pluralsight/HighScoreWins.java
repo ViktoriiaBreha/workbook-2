@@ -18,11 +18,16 @@ public class HighScoreWins {
         int score1 = Integer.parseInt(scores[0]);
         int score2 = Integer.parseInt(scores[1]);
 
+
         if (score1>score2) {
-            System.out.println("Winner: " + team1);
-        } else if (score1<score2) {
-            System.out.println("winner: " + team2);
-        } else {
+            System.out.printf("Winner: %s\n", team1);
+            //System.out.println("Winner: " + team1);
+        }
+        else if (score1<score2) {
+            //System.out.println("winner: " + team2);
+            System.out.printf("Winner: %s", team2);
+        }
+         else {
             System.out.println("Teams are tie");
         }
 
