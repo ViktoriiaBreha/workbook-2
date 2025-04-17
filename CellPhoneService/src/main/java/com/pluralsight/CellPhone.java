@@ -32,6 +32,11 @@ public String getOwner () {
         return this.owner;
 }
 
+public void dial(String phone_call) {
+        System.out.println(owner + "'s phone is calling " + phone_call);
+    }
+
+
 }
 /*- serialNumber (ex: 1000000 - 9999999)
 - model (ex: iPhone X)
